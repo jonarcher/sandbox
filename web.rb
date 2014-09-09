@@ -1,5 +1,9 @@
 require 'sinatra'
 
 get '/' do
-  "Hello world"
+  "Hello, world"
+end
+
+get '/:name' do |name|
+  "Hello, #{name}"
 end
