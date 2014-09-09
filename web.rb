@@ -7,3 +7,7 @@ end
 get '/:name' do |name|
   "Hello, #{name}"
 end
+
+get '/blee' do
+  "Blee!"
+end
